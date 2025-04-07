@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-image,
+.Second-image,
+.third-image,
+.fourth-image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.first-image {
+    background-image: url(1image.jpg);
+    min-height: 600px;
+
+
+
+}
+
+.Second-image {
+    background-image: url(2image.jpg);
+    min-height: 600px;
+
+}
+
+.third-image {
+    background-image: url(3image.jpg);
+    min-height: 600px;
+
+
+}
+
+.fourth-image {
+    background-image: url(4image.jpg);
+    min-height: 600px;
+
+}
+
+.section-light,
+.section-dark {
+    text-align: center;
+    padding: 3rem 5rem;
+    background-color: darkgray;
+
+}
+
+
+.section div span {
+    letter: spacing 1px;
+    ;
+    font-weight: 300;
+}
+
+.image {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+
+}
+
+.image div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.first-image span {
+    background-color: #7aaf59;
+    padding: 1rem 1rem;
+
+}
+
+.fourth-image span {
+    background-color: #7aaf59;
+    padding: 1rem 1rem;
+}
+
